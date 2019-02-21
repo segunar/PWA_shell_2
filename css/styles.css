@@ -1,0 +1,9 @@
+body {
+    background-color: rgba(238, 237, 159, 0.466);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
