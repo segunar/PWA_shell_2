@@ -27,23 +27,6 @@ button, input, select, textarea {
     transition: 200ms;
 }
 
-#dataDiv{
-    position: ;
-    border: red solid 1px;
-    width: 100vw;
-    height: 5vh;
-    /* top: 0;
-    left: 0; */
-}
-
-#searchDiv{
-    position: relative;
-    border: yellow solid 1px;
-    width: 100vw;
-    height: 5vh;
-    /* top: 0;
-    left: 0; */
-}
 
 #productBtn{
     background-color:#c8ccc9;
@@ -60,14 +43,12 @@ button, input, select, textarea {
     margin: 5px; 
 }
 
-.slideIn{
-    height: 0px;
-    transition: 200ms;
+.slideIn{   
+    height: 0px; 
     overflow: hidden;
 }
 .slideOut{
-    height: 100%;
-    transition: 200ms;
+    border: solid red 3px;
 }
 
 .productListItem{
@@ -80,9 +61,27 @@ button, input, select, textarea {
     text-align: center;
     padding: 10px;
 }
-/* #productListContainer{
-    margin-top: -100%;
-} */
+#productListContainer{
+    
+    transition: 200ms;
+}
+
+#dataDiv{
+    border: red solid 1px;
+    width: 100vw;
+    height: 5vh;
+    /* top: 0;
+    left: 0; */
+}
+
+#searchDiv{
+    border: yellow solid 1px;
+    width: 100vw;
+    height: 5vh;
+    /* top: 0;
+    left: 0; */
+}
+
 
 footer{
     position: fixed;
