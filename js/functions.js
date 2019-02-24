@@ -22,3 +22,4 @@ function hideSideNavMenu() {
     $("#productListContainer").removeClass("slideIn");
     $("#productListContainer").addClass("slideOut");
 }
+

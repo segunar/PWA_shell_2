@@ -7,9 +7,10 @@
 
     <title>PWA SHELL</title>
     <meta name="Andy WEB" content="">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=6.0, user-scalable=0' />
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="stylesheet" href="css/styles.css">
 
 
@@ -17,28 +18,55 @@
 
 <body>
 
-    <div id="container">
-        <div id="topNavMenu">
-            <button id="productBtn">Product</button>
-        </div>
-        <div id="productListContainer" class="slideIn">
-            <div class="productListItem">1</div>
-            <div class="productListItem">2</div>
-            <div class="productListItem">3</div>
-            <div class="productListItem">4</div>
-            <div class="productListItem">5</div>
-            <div class="productListItem">6</div>
-            <div class="productListItem">7</div>
-            <div class="productListItem">8</div>
-            <div class="productListItem">9</div>
-            <div class="productListItem">10</div>
+    <div id="containerMain">
+        <div id="containerTop">
+            <div id="topNavMenu">
+                <!-- <button id="productBtn">Product</button> -->
+                <div id="productBtn">Product</div>
+            </div>
+            <div id="productListContainer" class="slideIn">
+                <div class="productListItem">ONE</div>
+                <div class="productListItem">TWO</div>
+                <div class="productListItem">THREE</div>
+                <div class="productListItem">FOUR</div>
+                <div class="productListItem">FIVE</div>
+                <div class="productListItem">SIX</div>
+                <div class="productListItem">SEVEN</div>
+                <div class="productListItem">EIGHT</div>
+                <div class="productListItem">NINE</div>
+                <div class="productListItem">TEN</div>
+            </div>
+
+            <div id="dataDiv">Data</div>
+
+            <div id="searchDiv">
+                <input type="text" id="searchInput" name="">
+                <i id="searchIcon" class="fas fa-search"></i>
+            </div>
+
         </div>
 
-        <div id="dataDiv">Data</div>
-        <div id="searchDiv">Search</div>
-        <div id="productDisplay"></div>
+
+        <div id="productDisplayContainer">
+            <img id="spinImg" src="img/spin.svg" alt="spinning svg image">
+            <!-- <div class="productListItem bodyProduct">1</div>
+            <div class="productListItem bodyProduct">2</div>
+            <div class="productListItem bodyProduct">3</div>
+            <div class="productListItem bodyProduct">4</div>
+            <div class="productListItem bodyProduct">5</div>
+            <div class="productListItem bodyProduct">6</div>
+            <div class="productListItem bodyProduct">7</div>
+            <div class="productListItem bodyProduct">8</div>
+            <div class="productListItem bodyProduct">9</div>
+            <div class="productListItem bodyProduct">10</div> -->
+        </div>
     </div>
-    <footer>Footer</footer>
+    <footer>
+        <div id="accountIcon" class="footerIcon"><i class="far fa-user"></i></div>
+        <div id="helpIcon" class="footerIcon"><i class="far fa-question-circle"></i></div>
+        <div id="emailIcon" class="footerIcon"><i class="far fa-envelope"></i></div>
+        <div id="hintIcon" class="footerIcon"><i class="far fa-lightbulb"></i></div>
+    </footer>
 
     <script src="js/functions.js"></script>
     <script src="js/controller.js"></script>
